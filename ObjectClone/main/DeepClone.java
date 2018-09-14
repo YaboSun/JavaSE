@@ -29,11 +29,12 @@ public class DeepClone implements Cloneable{
         } catch (CloneNotSupportedException e) {
             e.printStackTrace();
         }
+        deepClone.deepCloneSecond = (DeepCloneSecond)deepCloneSecond.clone();
         return deepClone;
     }
 }
 
-class DeepCloneSecond {
+class DeepCloneSecond implements Cloneable{
     /** 用于测试的第二个参数 */
     private String secondTestPar;
 
@@ -43,5 +44,16 @@ class DeepCloneSecond {
 
     public void setSecondTestPar(String secondTestPar) {
         this.secondTestPar = secondTestPar;
+    }
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        DeepCloneSecond dcs = null;
+        try {
+            dcs = (DeepCloneSecond)super.clone();
+        } catch (CloneNotSupportedException e) {
+            e.printStackTrace();
+        }
+        return dcs;
     }
 }

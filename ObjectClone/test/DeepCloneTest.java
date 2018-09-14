@@ -17,8 +17,17 @@ class DeepCloneTest {
 
         try {
             DeepClone deepClone1 = (DeepClone)deepClone.clone();
-            System.out.println("deepClone：" + deepClone.getTestPar() + ",测试参数2：" + deepClone.getDeepCloneSecond().getSecondTestPar());
-            System.out.println("deepClone1：" + deepClone1.getTestPar() + ",测试参数2：" + deepClone.getDeepCloneSecond().getSecondTestPar());
+            System.out.println("deepClone：" + deepClone.getTestPar() + ",测试参数2："
+                    + deepClone.getDeepCloneSecond().getSecondTestPar());
+            System.out.println("deepClone1：" + deepClone1.getTestPar() + ",测试参数2："
+                    + deepClone1.getDeepCloneSecond().getSecondTestPar());
+
+            deepCloneSecond.setSecondTestPar("深度克隆2");
+            System.out.println("deepClone：" + deepClone.getTestPar() + ",测试参数2："
+                    + deepClone.getDeepCloneSecond().getSecondTestPar());
+            System.out.println("deepClone1：" + deepClone1.getTestPar() + ",测试参数2："
+                    + deepClone1.getDeepCloneSecond().getSecondTestPar());
+
         } catch (CloneNotSupportedException e) {
             e.printStackTrace();
         }
