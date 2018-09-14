@@ -1,4 +1,4 @@
-package firststage.simpleclass;
+package simpleclass;
 
 /**
  * 定义一个有意义的类

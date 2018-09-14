@@ -1,4 +1,4 @@
-package firststage.simpleclass;
+package simpleclass;
 
 /**
  *主要是双向一对多问题的解决

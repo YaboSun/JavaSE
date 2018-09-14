@@ -1,4 +1,4 @@
-package firststage.extend;
+package extend;
 
 /**
  * 继承的限制

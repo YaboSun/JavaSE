@@ -1,4 +1,4 @@
-package firststage.string;
+package string;
 
 /**
  *1、String实例化方法

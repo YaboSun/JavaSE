@@ -1,4 +1,4 @@
-package firststage.linkedlist;
+package linkedlist;
 
 /**
  * 链表的基本操作特点

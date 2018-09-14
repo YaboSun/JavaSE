@@ -1,4 +1,4 @@
-package firststage.simpleclass;
+package simpleclass;
 
 /**
  * 谁的构造函数就是调用谁的方法

@@ -1,4 +1,4 @@
-package firststage.interfacedemo;
+package interfacedemo;
 
 /**
  * 主要学习接口的基本概念与主要特点 接口中只有抽象方法和全局常量

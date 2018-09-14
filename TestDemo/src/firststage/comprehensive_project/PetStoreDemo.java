@@ -1,4 +1,4 @@
-package firststage.comprehensive_project;
+package comprehensive_project;
 
 public class PetStoreDemo {
     public static void main(String[] args){

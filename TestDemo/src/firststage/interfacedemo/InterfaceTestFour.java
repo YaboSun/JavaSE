@@ -1,4 +1,4 @@
-package firststage.interfacedemo;
+package interfacedemo;
 
 /**
  * 接口的应用--编写一个简单的代理设计模式（proxy）

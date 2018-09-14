@@ -1,4 +1,4 @@
-package firststage.simpleclass;
+package simpleclass;
 
 /**
  * １、表示本类属性

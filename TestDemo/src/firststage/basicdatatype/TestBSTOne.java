@@ -1,4 +1,4 @@
-package firststage.basicdatatype;
+package basicdatatype;
 
 /**
  * 测试装箱与拆箱 对于基本数据类型的包装

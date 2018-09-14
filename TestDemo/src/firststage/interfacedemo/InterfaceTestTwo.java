@@ -1,4 +1,4 @@
-package firststage.interfacedemo;
+package interfacedemo;
 
 /**
  * 主要学习接口的实际应用 --- 定义标准

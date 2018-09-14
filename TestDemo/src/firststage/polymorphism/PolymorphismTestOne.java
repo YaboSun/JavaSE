@@ -1,4 +1,4 @@
-package firststage.polymorphism;
+package polymorphism;
 
 /**
  * 多态：

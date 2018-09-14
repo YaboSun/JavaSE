@@ -1,4 +1,4 @@
-package firststage.abstractdemo;
+package abstractdemo;
 
 /**
  * 1、如果真的使用类继承的话就使用抽象类

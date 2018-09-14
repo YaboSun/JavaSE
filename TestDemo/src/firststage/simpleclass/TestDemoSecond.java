@@ -1,4 +1,4 @@
-package firststage.simpleclass;
+package simpleclass;
 
 /**
  * 通过部门－雇佣关系设计学习简单Java类的设计

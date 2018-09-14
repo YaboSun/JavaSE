@@ -1,4 +1,4 @@
-package firststage.interfacedemo;
+package interfacedemo;
 
 /**
  * 接口的应用 --工厂设计模式

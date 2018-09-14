@@ -1,4 +1,4 @@
-package firststage.anonymousInnerclass;
+package anonymousInnerclass;
 
 public class TestOne {
     public static void main(String[] args){

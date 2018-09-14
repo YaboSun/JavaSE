@@ -10,8 +10,6 @@ public class MethodReferences {
 
 /**
  * 实现方法的引用接口
- * @param <P> 饮用方法参数的类型
- * @param <R> 返回值的类型
  */
 @FunctionalInterface //表示函数式接口 只能有一个方法
 interface IMessageRef<C>{

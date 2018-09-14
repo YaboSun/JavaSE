@@ -46,7 +46,7 @@ interface IMessage<T>{
 
 /**
  * 子类也使用泛型，并且父接口使用和子类同样的泛型标记
- * @param <T>
+ *
  */
 class MessageImpl implements IMessage<String>{
     @Override

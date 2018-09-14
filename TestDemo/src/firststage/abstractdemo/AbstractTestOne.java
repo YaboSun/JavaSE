@@ -1,4 +1,4 @@
-package firststage.abstractdemo;
+package abstractdemo;
 
 /**
  * 拥有抽象方法的类一定属于抽象类 抽象类要使用abstract声明

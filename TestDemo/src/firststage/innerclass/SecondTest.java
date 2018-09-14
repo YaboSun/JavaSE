@@ -1,4 +1,4 @@
-package firststage.innerclass;
+package innerclass;
 
 /**
  * 在方法中定义内部类

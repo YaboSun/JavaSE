@@ -1,4 +1,4 @@
-package firststage.string;
+package string;
 
 /**
  * 主要学习java引用传递

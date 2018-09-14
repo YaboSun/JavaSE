@@ -1,4 +1,4 @@
-package firststage.staticdemo;
+package staticdemo;
 
 /**
  * 一旦在对象定义上使用了static那么只要有一个对象修改了该属性，则所有对象的属性都会修改

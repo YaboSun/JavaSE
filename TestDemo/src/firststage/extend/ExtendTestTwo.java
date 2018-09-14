@@ -1,4 +1,4 @@
-package firststage.extend;
+package extend;
 
 /**
  * 主要测试方法的覆写

@@ -1,4 +1,4 @@
-package firststage.array;
+package array;
 
 /**
  * 主要学习一维数组的有关操作

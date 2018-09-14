@@ -1,4 +1,4 @@
-package firststage.linkedlist;
+package linkedlist;
 
 /**
  * 链表类 外部能看到的只有这一个类

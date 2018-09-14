@@ -1,4 +1,4 @@
-package firststage.linkedlist;
+package linkedlist;
 //每一个链表实际上是由多个节点组成
 class Node{
     private String strData; //要保存的数据

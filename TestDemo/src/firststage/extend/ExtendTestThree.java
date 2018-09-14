@@ -1,4 +1,4 @@
-package firststage.extend;
+package extend;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package firststage.innerclass;
+package innerclass;
 
 /**
  * 在开发的过程中，内部类尽量少用，优先考虑的还是普通类

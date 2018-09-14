@@ -1,4 +1,4 @@
-package firststage.simpleclass;
+package simpleclass;
 
 class Province{
     private int nProID;
