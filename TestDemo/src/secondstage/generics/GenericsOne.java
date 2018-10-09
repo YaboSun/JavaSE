@@ -12,7 +12,7 @@ public class GenericsOne {
         p.setX(10);
         p.setY(20);
 
-        //利用的就是包装类的自动装箱功能
+        // 利用包装类的自动装箱功能
         int x = p.getX();
         int y = p.getY();
         System.out.println("x坐标" + x + "y坐标" + y);

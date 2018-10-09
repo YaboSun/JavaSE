@@ -17,7 +17,7 @@ public class GenericsTwo {
     }
 
     /**
-     * //通过问号可以明确不能改变内容 但是可以取出 ,
+     * 通过问号可以明确不能改变内容 但是可以取出 ,
      * ? extends表示设置泛型上限 表示只能是设置的子类
      * ? super 表示泛型下限
      * @param temp
@@ -41,7 +41,7 @@ class Message<T>{
 }
 
 interface IMessage<T>{
-    public void print(T t);
+    void print(T t);
 }
 
 /**
