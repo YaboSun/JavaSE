@@ -5,7 +5,7 @@ import java.util.Locale;
 
 public class ReflectionTestThree {
     public static void main(String[] args) throws Exception{
-        Class<?> cls = Class.forName("fortest.Book");
+        Class<?> cls = Class.forName("reflection.Book");
         Object object = cls.newInstance();
         Field titleField = cls.getDeclaredField("title");
         titleField.setAccessible(true);

@@ -1,12 +1,10 @@
 package reflection;
 
-import java.util.Date;
-import java.util.Locale;
 
 public class ReflectionTestOne {
     public static void main(String[] args) {
         try {
-            Class<?> cls = Class.forName("reflection.Book");
+            Class<?> cls = Class.forName("reflection.Student");
             try {
                 Object object = cls.newInstance();
                 System.out.println(object);
@@ -22,11 +20,32 @@ public class ReflectionTestOne {
 }
 
 class Book {
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    private String title;
     public Book(){
         System.out.println("********这是book的无参构造函数××××××××");
     }
     @Override
     public String toString() {
         return "这是一本书";
+    }
+}
+
+class Student {
+    public Student() {
+        System.out.println("这是student的无参构造函数");
+
+    }
+
+    @Override
+    public String toString() {
+        return "Student{}";
     }
 }
